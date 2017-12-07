@@ -30,7 +30,7 @@ def clean_str(string):
 
 def match_text(ID):
     json_path=""
-    mypath="rumoureval-data/"
+    mypath="../semeval2017-task8-dataset/rumoureval-data/"
 
     for d in listdir(mypath):
         if ID in listdir(mypath+d):
